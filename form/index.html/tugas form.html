@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>form-registrasi</title>
+    </head>
+    <body>
+<form action="submit.php" method="POST">
+
+</fieldset id="formulir_registrasi_siswa">
+<legend>formulir registrasi siswa</legend>
+<ol>
+  <p></p>
+    <label for="nama_depan">nama depan</label><br>
+    <input type="text" name="nama_depan" id="nama_depan"
+    name="nama_depan" placeholder="'Rifki'">
+  
+    <p>
+      <label for="nama_belakang">nama belakang</label><br>
+      <input type="text" name="nama_belakang" id="nama_belakang"
+      name="nama_belakang" placeholder="'Gilang'">
+    </p>
+    <p>
+      <label for="tempat_lahir">tempat lahir</label><br>
+      <input type="text" name="tempat_lahir" id="tempat_lahir">
+    </p>
+    <p>
+      <label for="tanggal_lahir">tanggal lahir</label><br>
+      <input type="date" name="tanggal_lahir" id="tanggal_lahir"
+              value="20-10-2020">
+    </p>
+    <p>
+      <label for="jenis kelamin">jenis kelamin</label><br>
+      <input type="radio" name="jenis kelamin" value="laki-laki" checked> laki-laki
+      <input type="radio" name="jenis kelamin" value="perempuan" > perempuan
+    </p>
+    <p>
+     <label for="alamat_lengkap">alamat lengkap</label><br>
+     <textarea rows="7" cols="45">
+     </textarea>
+    </p>
+    <div>
+      <label>agama</label><br>
+      <select name="agama">
+        <option value="">--pilih--</option>
+        <option value="islam">islam</option>
+        <option value="protestan">protestan</option>
+        <option value="hindu">hindu</option>
+        <option value="buddha">buddha</option>
+        <option value="katolik">katolik</option>
+        <option value="khonghucu">khonghucu</option>
+      </select>
+    </div>
+    <p>
+      <label for="status">status</label><br>
+      <input type="text" name="status" id="status">
+    </p>
+    <p>
+      <label for="hobi">hobi</label><br>
+      <input type="checkbox" name="hobi" value="futsal"> futsal<br>
+      <input type="checkbox" name="hobi" value="basket"> basket<br>
+      <input type="checkbox" name="hobi" value="voli"> voli<br>
+      <input type="checkbox" name="hobi" value="renang"> renang<br>
+      <input type="checkbox" name="hobi" value="membaca buku"> membaca buku<br>
+      <input type="checkbox" name="hobi" value="dan lain-lain"> dan lain-lain<br>
+    </p>
+    <p>
+    <label for="email">email</label><br>
+    <input type="email" name="email" id="email"
+    name="email" placeholder="'xxxx@gmail.com'">
+    </p>
+    <p>
+    <label for="password">password</label><br>
+    <input type="password" name="password" maxlength="20"><br>
+    </p>
+      <p>
+        <input id="submit" type="submit" value="submit" />
+        <input id="reset" type="button" value="reset" />
+    </p>
+  </form>
+    </html>
+    </body>
